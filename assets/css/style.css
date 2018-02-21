@@ -115,14 +115,6 @@ body {
     /*box-shadow: -7px 7px 5px rgba(0, 0, 0, .3);*/
 }
 
-.entireContentArea {
-    clear: both;
-    width: 960px;
-    margin: 0 auto;
-    min-height: 100%;
-    margin-bottom: -100px;
-}
-
 .logo {
     float: left;
     background-color: #4aaaa5;
@@ -184,6 +176,14 @@ a:active {
     border-top: 2px solid #c9c9c9;
 }
 
+.entireContentArea {
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
 .maincontent {
     background-color: #fff;
     width: 650px;
@@ -223,5 +223,82 @@ a:active {
 .extraSpace {
     clear: both;
     height: 50px;
+}
+
+@media only screen and (max-width: 980px) {
+
+    .entireContentArea {
+
+    }
+
+    .maincontent {
+        width: 419px;
+        float: left;
+        margin: auto;
+        margin-right: 15px;
+        margin-left: 128px;
+    }
+
+    .sidecontent {
+        float: left;
+        margin: auto;
+        margin-right: 128px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .entireContentArea {
+        width: 768px;
+    }
+
+    .maincontent {
+        float: left;
+        margin: auto;
+        width: 728px;
+    }
+
+    .sidecontent {
+        clear: both;
+        margin: auto;
+        width: 728px;
+    }
+
+    .headerLinks {
+        background-color: #fff;
+        text-align: right;
+        width: 90px;
+        padding: 10px;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    .entireContentArea {
+        width: 640px;
+    }
+
+    .maincontent {
+        float: left;
+        margin: auto;
+        width: 600px;
+    }
+
+    .sidecontent {
+        clear: both;
+        margin: auto;
+        width: 600px;
+        margin-top: 30px;
+    }
+
+    .sidecontent {
+        float: left;
+        margin: auto;
+        margin-right: 20px;
+    }
+
 }
 
