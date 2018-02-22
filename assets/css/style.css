@@ -250,6 +250,14 @@ a:active {
     height: 50px;
 }
 
+textarea {
+    width: 90%;
+}
+
+input {
+    width: 90%;
+}
+
 @media only screen and (max-width: 980px) {
 
     .entireContentArea {
