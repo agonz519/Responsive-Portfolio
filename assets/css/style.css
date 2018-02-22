@@ -6,7 +6,7 @@ html {
     height: 100%;
 }
 
-/* JUST FOR TESTING PURPOSES */
+ /*JUST FOR TESTING PURPOSES*/
 /*#orange {*/
     /*background-color: orange;*/
 /*}*/
@@ -59,7 +59,7 @@ h3 {
     width: 270px;
     position: absolute;
     top: 145px;
-    left: 15px;
+    left: 25px;
 }
 
 h3:hover {
@@ -94,11 +94,23 @@ img:hover {
     border: 3px #4aaaa5 solid;
 }
 
-.pos1 {
-    position: relative;
+/*.pos1 {*/
+    /*position: relative;*/
+/*}*/
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+
 }
 
-
+.col {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
 
 #h-style1 {
     color: #fff;
@@ -293,6 +305,10 @@ input {
 
     }
 
+    .col {
+        clear: both;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -344,6 +360,10 @@ input {
 
     }
 
+    .col {
+        clear: none;
+    }
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -392,6 +412,10 @@ input {
         width: 100%;
         display: inline;
 
+    }
+
+    .col {
+        clear: both;
     }
 
 }
