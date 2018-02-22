@@ -59,7 +59,7 @@ h3 {
     width: 270px;
     position: absolute;
     top: 145px;
-    left: 25px;
+
 }
 
 h3:hover {
@@ -87,7 +87,7 @@ h3:hover {
 .portfolioImage {
     height: 200px;
     width: 270px;
-    margin: 15px;
+
 }
 
 img:hover {
@@ -102,7 +102,10 @@ img:hover {
     content: "";
     display: table;
     clear: both;
+}
 
+#center {
+    text-align: center;
 }
 
 .col {
@@ -110,6 +113,7 @@ img:hover {
     width: 50%;
     padding: 10px;
     position: relative;
+
 }
 
 #h-style1 {
@@ -307,6 +311,7 @@ input {
 
     .col {
         clear: both;
+        width: 100%;
     }
 
 }
