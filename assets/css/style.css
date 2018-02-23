@@ -45,12 +45,7 @@ h2 {
 
 h3 {
     font-family: 'Josefin Sans', sans-serif;
-    display: block;
     font-size: 20px;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
-    margin-left: 0;
-    margin-right: 0;
     font-weight: bold;
     background-color: #4aaaa5;
     color: #efeee7;
@@ -59,6 +54,10 @@ h3 {
     width: 270px;
     position: absolute;
     top: 145px;
+    left: 15px;
+    right: 15px;
+    margin: 0 auto;
+
 
 }
 
@@ -113,6 +112,7 @@ img:hover {
     width: 50%;
     padding: 10px;
     position: relative;
+
 
 }
 
